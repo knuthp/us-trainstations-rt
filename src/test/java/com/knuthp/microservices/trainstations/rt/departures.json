@@ -1,0 +1,2204 @@
+[
+      {
+      "RecordedAtTime": "2014-12-31T17:23:25+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3512",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "525_2014-12-31_16:31"
+         },
+         "PublishedLineName": "L12",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Kongsberg",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "525",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "509",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:29:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:28:47+01:00",
+            "AimedDepartureTime": "2014-12-31T17:30:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:30:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:04+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3601",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "3770_2014-12-31_16:50"
+         },
+         "PublishedLineName": "FT",
+         "DirectionName": null,
+         "OperatorRef": "FLY",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "3770",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:35:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:35:00+01:00",
+            "AimedDepartureTime": "2014-12-31T17:36:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:36:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:24+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": "1",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "7254_2014-12-31_17:17"
+         },
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Lillestrøm",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "7254",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "129",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:35:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:36:18+01:00",
+            "AimedDepartureTime": "2014-12-31T17:37:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:37:00+01:00",
+            "DeparturePlatformName": "6"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:09+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3514",
+         "DirectionRef": "1",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "1027_2014-12-31_17:39"
+         },
+         "PublishedLineName": "L14",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Kongsvinger",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "1027",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "682",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:39:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:20:07+01:00",
+            "AimedDepartureTime": "2014-12-31T17:39:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:39:00+01:00",
+            "DeparturePlatformName": "2"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:13+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3513",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "1648_2014-12-31_16:23"
+         },
+         "PublishedLineName": "L13",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "1648",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "608",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:39:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:39:00+01:00",
+            "AimedDepartureTime": "2014-12-31T17:40:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:40:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:21+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "7249_2014-12-31_16:40"
+         },
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Spikkestad",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "7249",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "114",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:41:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:41:00+01:00",
+            "AimedDepartureTime": "2014-12-31T17:45:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:45:00+01:00",
+            "DeparturePlatformName": "4"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:20:05+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3513",
+         "DirectionRef": "1",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "1653_2014-12-31_17:35"
+         },
+         "PublishedLineName": "L13",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Dal",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "1653",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "613",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:48:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:48:00+01:00",
+            "AimedDepartureTime": "2014-12-31T17:49:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:49:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:20:07+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "324_2014-12-31_15:12"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "324",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:49:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:49:00+01:00",
+            "AimedDepartureTime": "2014-12-31T17:50:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:50:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3510",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "R10",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "390",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Drammen",
+            "AimedArrivalTime": "2014-12-31T17:50:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:50:00+01:00",
+            "AimedDepartureTime": "2014-12-31T17:50:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:50:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:45+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3601",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "3772_2014-12-31_17:10"
+         },
+         "PublishedLineName": "FT",
+         "DirectionName": null,
+         "OperatorRef": "FLY",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "3772",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:55:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:55:00+01:00",
+            "AimedDepartureTime": "2014-12-31T17:56:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:56:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:23:10+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "826_2014-12-31_16:19"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Eidsvoll",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "826",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:58:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:58:00+01:00",
+            "AimedDepartureTime": "2014-12-31T17:59:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:59:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3511",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "R11",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Eidsvoll",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "460",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Eidsvoll",
+            "AimedArrivalTime": "2014-12-31T17:59:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:59:00+01:00",
+            "AimedDepartureTime": "2014-12-31T17:59:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T17:59:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:22:24+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "827_2014-12-31_17:01"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Skien",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "827",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T17:59:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T17:59:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:00:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:00:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3511",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "R11",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Skien",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "451",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Skien",
+            "AimedArrivalTime": "2014-12-31T18:00:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:00:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:00:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:00:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:33+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": "1",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "7256_2014-12-31_17:47"
+         },
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Lillestrøm",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "7256",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "131",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:05:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:05:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:07:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:07:00+01:00",
+            "DeparturePlatformName": "6"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:09+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3513",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "1650_2014-12-31_16:53"
+         },
+         "PublishedLineName": "L13",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "1650",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "615",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:09:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:09:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:10:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:10:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:37+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "7251_2014-12-31_17:10"
+         },
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Spikkestad",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "7251",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "122",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:11:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:11:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:15:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:15:00+01:00",
+            "DeparturePlatformName": "4"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:21:58+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3601",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "3774_2014-12-31_17:30"
+         },
+         "PublishedLineName": "FT",
+         "DirectionName": null,
+         "OperatorRef": "FLY",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "3774",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:15:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:15:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:16:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:16:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:31+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3513",
+         "DirectionRef": "1",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "1655_2014-12-31_18:05"
+         },
+         "PublishedLineName": "L13",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Dal",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "1655",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "614",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:18:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:18:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:19:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:19:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:27+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3512",
+         "DirectionRef": "1",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "528_2014-12-31_17:33"
+         },
+         "PublishedLineName": "L12",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Eidsvoll",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "528",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "517",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:28:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:28:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:29:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:29:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:16:03+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3512",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "527_2014-12-31_17:31"
+         },
+         "PublishedLineName": "L12",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Kongsberg",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "527",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "510",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:29:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:29:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:30:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:30:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:30+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3601",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "3776_2014-12-31_17:50"
+         },
+         "PublishedLineName": "FT",
+         "DirectionName": null,
+         "OperatorRef": "FLY",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "3776",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:35:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:35:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:36:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:36:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:36+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": "1",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "7258_2014-12-31_18:17"
+         },
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Lillestrøm",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "7258",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "132",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:35:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:35:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:37:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:37:00+01:00",
+            "DeparturePlatformName": "6"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:24:08+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3513",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "1652_2014-12-31_17:23"
+         },
+         "PublishedLineName": "L13",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "1652",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "620",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:39:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:39:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:40:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:40:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:32+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "7253_2014-12-31_17:40"
+         },
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Spikkestad",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "7253",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "123",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:41:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:41:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:45:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:45:00+01:00",
+            "DeparturePlatformName": "4"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:21:50+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "326_2014-12-31_16:11"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "326",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:49:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:49:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:50:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:50:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3510",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "R10",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "389",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Drammen",
+            "AimedArrivalTime": "2014-12-31T18:50:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:50:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:50:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:50:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:22:45+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "828_2014-12-31_17:19"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Eidsvoll",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "828",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T18:58:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:58:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:59:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:59:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3511",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "R11",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Eidsvoll",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "458",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Eidsvoll",
+            "AimedArrivalTime": "2014-12-31T18:59:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T18:59:00+01:00",
+            "AimedDepartureTime": "2014-12-31T18:59:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T18:59:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:34+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "331_2014-12-31_18:57"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Lillehammer",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "331",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T19:08:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:08:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:09:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:09:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3510",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "R10",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Lillehammer",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "393",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Lillehammer",
+            "AimedArrivalTime": "2014-12-31T19:09:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:09:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:09:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:09:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:30+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3513",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "1654_2014-12-31_17:53"
+         },
+         "PublishedLineName": "L13",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "1654",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "616",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T19:09:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:09:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:10:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:10:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:32+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "7255_2014-12-31_18:10"
+         },
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Spikkestad",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "7255",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "125",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T19:11:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:11:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:15:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:15:00+01:00",
+            "DeparturePlatformName": "4"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T02:15:40+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "529_2014-12-31_18:31"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "529",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T19:29:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:29:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:30:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:30:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3512",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "L12",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Kongsberg",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "512",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Kongsberg",
+            "AimedArrivalTime": "2014-12-31T19:30:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:30:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:30:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:30:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:37+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": "1",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "7262_2014-12-31_19:17"
+         },
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Lillestrøm",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "7262",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "141",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T19:35:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:35:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:37:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:37:00+01:00",
+            "DeparturePlatformName": "6"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T01:16:35+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": "2",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "7257_2014-12-31_18:40"
+         },
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Spikkestad",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "7257",
+         "VehicleMode": 2,
+         "VehicleJourneyName": "124",
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T19:41:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:41:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:45:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:45:00+01:00",
+            "DeparturePlatformName": "4"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:23:13+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "328_2014-12-31_17:13"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "328",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T19:49:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:49:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:50:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:50:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3510",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "R10",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Drammen",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "392",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Drammen",
+            "AimedArrivalTime": "2014-12-31T19:50:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:50:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:50:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:50:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T17:18:35+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "830_2014-12-31_18:19"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Eidsvoll",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "830",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T19:58:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:58:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:59:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:59:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3511",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "R11",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Eidsvoll",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "471",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Eidsvoll",
+            "AimedArrivalTime": "2014-12-31T19:59:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:59:00+01:00",
+            "AimedDepartureTime": "2014-12-31T19:59:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T19:59:00+01:00",
+            "DeparturePlatformName": "3"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "2014-12-31T14:35:33+01:00",
+      "MonitoringRef": "ASR",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "0",
+         "DirectionRef": "0",
+         "FramedVehicleJourneyRef":          {
+            "DataFrameRef": "2014-12-31",
+            "DatedVehicleJourneyRef": "831_2014-12-31_19:01"
+         },
+         "PublishedLineName": "",
+         "DirectionName": null,
+         "OperatorRef": "NSB",
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Skien",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": true,
+         "InCongestion": false,
+         "Delay": "PT0S",
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": "831",
+         "VehicleMode": 2,
+         "VehicleJourneyName": null,
+         "MonitoredCall":          {
+            "VisitNumber": 1,
+            "VehicleAtStop": false,
+            "DestinationDisplay": null,
+            "AimedArrivalTime": "2014-12-31T19:59:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T19:59:00+01:00",
+            "AimedDepartureTime": "2014-12-31T20:00:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T20:00:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "424A52"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3511",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "R11",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Larvik",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "467",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Larvik",
+            "AimedArrivalTime": "2014-12-31T20:00:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T20:00:00+01:00",
+            "AimedDepartureTime": "2014-12-31T20:00:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T20:00:00+01:00",
+            "DeparturePlatformName": "1"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Lillestrøm",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "139",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Lillestrøm",
+            "AimedArrivalTime": "2014-12-31T20:37:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T20:37:00+01:00",
+            "AimedDepartureTime": "2014-12-31T20:37:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T20:37:00+01:00",
+            "DeparturePlatformName": "6"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   },
+      {
+      "RecordedAtTime": "0001-01-01T00:00:00",
+      "MonitoringRef": "2200500",
+      "MonitoredVehicleJourney":       {
+         "LineRef": "3501",
+         "DirectionRef": null,
+         "FramedVehicleJourneyRef": null,
+         "PublishedLineName": "L1",
+         "DirectionName": null,
+         "OperatorRef": null,
+         "OriginName": null,
+         "OriginRef": null,
+         "DestinationRef": 0,
+         "DestinationName": "Spikkestad",
+         "OriginAimedDepartureTime": "0001-01-01T00:00:00",
+         "DestinationAimedArrivalTime": "0001-01-01T00:00:00",
+         "Monitored": false,
+         "InCongestion": false,
+         "Delay": null,
+         "TrainBlockPart": null,
+         "BlockRef": null,
+         "VehicleRef": null,
+         "VehicleMode": 2,
+         "VehicleJourneyName": "133",
+         "MonitoredCall":          {
+            "VisitNumber": 0,
+            "VehicleAtStop": false,
+            "DestinationDisplay": "Spikkestad",
+            "AimedArrivalTime": "2014-12-31T20:45:00+01:00",
+            "ExpectedArrivalTime": "2014-12-31T20:45:00+01:00",
+            "AimedDepartureTime": "2014-12-31T20:45:00+01:00",
+            "ExpectedDepartureTime": "2014-12-31T20:45:00+01:00",
+            "DeparturePlatformName": "4"
+         },
+         "VehicleFeatureRef": null
+      },
+      "Extensions":       {
+         "IsHub": false,
+         "OccupancyData":          {
+            "OccupancyAvailable": false,
+            "OccupancyPercentage": 0
+         },
+         "Deviations": [         {
+            "ID": 20577,
+            "Header": "Tog L1: Spikkestad - Lillestrøm: Blommenholm, Høvik og Stabekk stengt"
+         }],
+         "LineColour": "32374B"
+      }
+   }
+]
