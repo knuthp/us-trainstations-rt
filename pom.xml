@@ -124,6 +124,12 @@
 			<version>${jackson.version}</version>
 		</dependency>
 
+		<!-- Utilities for Java -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
+		</dependency>
 
 
 		<!-- Embedded jetty -->
