@@ -1,6 +1,8 @@
 package com.knuthp.microservices.trainstations.rt;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +20,7 @@ import com.knuthp.microservices.trainstations.rt.domain.RtStop;
 @EnableScheduling
 public class Poller {
 	private static final Logger logger = LoggerFactory.getLogger(Poller.class);
+	private Map<Place, RtDepartures> cache;
 	
 	@Autowired
 	private PlaceList placeList;
@@ -27,12 +30,14 @@ public class Poller {
 	private Publisher publisher;
 	
 	public Poller() {
+		cache = new HashMap<Place, RtDepartures>();
 	}
 
 	public Poller(PlaceList placeList, RuterGateway ruterGateway, Publisher publisher) {
 		this.placeList = placeList;
 		this.ruterGateway = ruterGateway;
 		this.publisher = publisher;
+		cache = new HashMap<Place, RtDepartures>();
 	}
 
 	
@@ -43,7 +48,14 @@ public class Poller {
 			List<MonitoredStopVisit> departures = ruterGateway.getDepartures(place);
 			RtDepartures rtDepartures = createDomainObject(place, departures);
 			
-			publisher.publishRtDepartures(rtDepartures);
+			RtDepartures cachedDepartures = cache.get(place);
+			if (cachedDepartures == null || !cachedDepartures.equals(rtDepartures)) {			
+				logger.info("Updated data for " + place);
+				publisher.publishRtDepartures(rtDepartures);
+				cache.put(place, rtDepartures);
+			} else {
+				logger.info("Equal data for " + place);
+			}
 		}
 	}
 
