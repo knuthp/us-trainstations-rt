@@ -11,4 +11,4 @@ This is part of the microservices architecture experiment.
 
 # Resources
 1. Deployed Heroku version [trainstations-rt](https://trainstations-rt.herokuapp.com/)
-2. Publishes to RabbitMQ Bigwig on exchange "log"
+2. Publishes to RabbitMQ Bigwig on exchange "train.stations.rt"

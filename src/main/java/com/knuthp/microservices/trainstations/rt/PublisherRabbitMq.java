@@ -18,7 +18,7 @@ import com.rabbitmq.client.ConnectionFactory;
 public class PublisherRabbitMq implements Publisher {
 	private static final Logger logger = LoggerFactory
 			.getLogger(PublisherRabbitMq.class);
-	private static final String EXCHANGE_NAME = "logs";
+	private static final String EXCHANGE_NAME = "train.stations.rt";
 
 	public PublisherRabbitMq() {
 			logger.info("Publisher will publish to RabbitMQ");
