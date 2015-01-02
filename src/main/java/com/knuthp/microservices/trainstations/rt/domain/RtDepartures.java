@@ -13,7 +13,7 @@ public class RtDepartures {
 	private List<RtStop> rtStopList;
 	
 	public RtDepartures() {
-		rtStopList = new ArrayList<RtStop>();
+		setRtStopList(new ArrayList<RtStop>());
 	}
 
 	public String getPlaceId() {
@@ -25,7 +25,7 @@ public class RtDepartures {
 	}
 
 	public void addStop(RtStop rtStop) {
-		rtStopList.add(rtStop);
+		getRtStopList().add(rtStop);
 	}
 
 	@Override
@@ -42,5 +42,13 @@ public class RtDepartures {
 	@Override
 	public String toString() {
 		return ToStringBuilder.reflectionToString(this);
+	}
+
+	public List<RtStop> getRtStopList() {
+		return rtStopList;
+	}
+
+	public void setRtStopList(List<RtStop> rtStopList) {
+		this.rtStopList = rtStopList;
 	}
 }

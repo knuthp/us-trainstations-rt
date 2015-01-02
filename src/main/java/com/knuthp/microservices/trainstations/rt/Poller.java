@@ -44,17 +44,17 @@ public class Poller {
 	@Scheduled(fixedRate = 1000)
 	public void pollStations() throws Exception {
 		for (Place place : placeList.getPlaceList()) {
-			logger.info("Polling: " + place.getId());
+			logger.debug("Polling: " + place.getId());
 			List<MonitoredStopVisit> departures = ruterGateway.getDepartures(place);
 			RtDepartures rtDepartures = createDomainObject(place, departures);
 			
 			RtDepartures cachedDepartures = cache.get(place);
-			if (cachedDepartures == null || !cachedDepartures.equals(rtDepartures)) {			
+			if (rtDepartures != null && (cachedDepartures == null || !cachedDepartures.equals(rtDepartures))) {			
 				logger.info("Updated data for " + place);
 				publisher.publishRtDepartures(rtDepartures);
 				cache.put(place, rtDepartures);
 			} else {
-				logger.info("Equal data for " + place);
+				logger.debug("Equal data for " + place);
 			}
 		}
 	}

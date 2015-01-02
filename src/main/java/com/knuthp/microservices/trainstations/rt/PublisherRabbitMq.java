@@ -39,7 +39,7 @@ public class PublisherRabbitMq implements Publisher {
 			String message = mapper.writeValueAsString(rtDepartures);
 
 			channel.basicPublish(EXCHANGE_NAME, "", null, message.getBytes());
-			logger.info("Published " + rtDepartures.getPlaceId());
+			logger.info("Published to exchange " + EXCHANGE_NAME + " for place " + rtDepartures.getPlaceId());
 			channel.close();
 			connection.close();
 		} catch (IOException | KeyManagementException | NoSuchAlgorithmException | URISyntaxException e) {
