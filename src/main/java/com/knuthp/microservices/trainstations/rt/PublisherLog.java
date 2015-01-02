@@ -2,11 +2,9 @@ package com.knuthp.microservices.trainstations.rt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
 
 import com.knuthp.microservices.trainstations.rt.domain.RtDepartures;
 
-@Component
 public class PublisherLog implements Publisher {
 	private static final Logger logger = LoggerFactory.getLogger(PublisherLog.class);
 	@Override
