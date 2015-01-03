@@ -10,6 +10,7 @@ public class RtStop {
 	private String publishedLineName;
 	private boolean vehicleAtStop;
 	private String journeyId;
+	private String delay;
 
 	public boolean isMonitored() {
 		return monitored;
@@ -43,6 +44,15 @@ public class RtStop {
 		this.journeyId = journeyId;
 	}
 
+	public String getDelay() {
+		return delay;
+	}
+
+	public void setDelay(String delay) {
+		this.delay = delay;
+	}
+
+	
 	@Override
 	public boolean equals(Object obj) {
 		return EqualsBuilder.reflectionEquals(this, obj);
@@ -57,5 +67,6 @@ public class RtStop {
 	public String toString() {
 		return ToStringBuilder.reflectionToString(this);
 	}
+
 
 }

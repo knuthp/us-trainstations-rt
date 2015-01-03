@@ -51,6 +51,7 @@ public class PollerTest {
 		assertEquals(true, rtStop.isMonitored());
 		assertEquals(false, rtStop.isVehicleAtStop());
 		assertEquals("525_2014-12-31_16:31", rtStop.getJourneyId());
+		assertEquals("PT0S", rtStop.getDelay());
 	}
 
 	

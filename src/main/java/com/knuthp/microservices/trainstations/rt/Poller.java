@@ -69,6 +69,7 @@ public class Poller {
 			rtStop.setPublishedLineName(monitoredStopVisit.getMonitoredVehicleJourney().getPublishedLineName());
 			rtStop.setMonitored(monitoredStopVisit.getMonitoredVehicleJourney().isMonitored());
 			rtStop.setVehicleAtStop(monitoredStopVisit.getMonitoredVehicleJourney().getMonitoredCall().isVehicleAtStop());
+			rtStop.setDelay(monitoredStopVisit.getMonitoredVehicleJourney().getDelay());
 			if (monitoredStopVisit.getMonitoredVehicleJourney().getFramedVehicleJourneyRef() != null) {
 				rtStop.setJourneyId(monitoredStopVisit.getMonitoredVehicleJourney().getFramedVehicleJourneyRef().getDatedVehicleJourneyRef());
 			}
