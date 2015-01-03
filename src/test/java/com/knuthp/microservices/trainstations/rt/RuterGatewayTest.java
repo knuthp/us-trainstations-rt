@@ -36,7 +36,7 @@ public class RuterGatewayTest {
 	}
 
 	@Test
-	public void testName() throws Exception {
+	public void testReadReisApiFromJSON() throws Exception {
 		String myResource = IOUtils.toString(this.getClass()
 				.getResourceAsStream("departures.json"));
 		when(httpProxyMock.getUrlJson(endsWith("getdepartures/1"))).thenReturn(
@@ -52,6 +52,8 @@ public class RuterGatewayTest {
 		assertEquals("L12", journey.getPublishedLineName());
 		assertEquals("PT0S", journey.getDelay());
 		assertEquals(false, journey.getMonitoredCall().isVehicleAtStop());
+		assertEquals("525_2014-12-31_16:31", journey.getFramedVehicleJourneyRef().getDatedVehicleJourneyRef());
+		
 	}
 
 	@Before
