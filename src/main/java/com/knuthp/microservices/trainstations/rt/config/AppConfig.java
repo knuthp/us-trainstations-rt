@@ -10,6 +10,7 @@ import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitAdmin;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -38,21 +39,29 @@ public class AppConfig {
 	}
 
 	@Bean
+	public FanoutExchange fanoutExchange() {
+		return new FanoutExchange(EXCHANGE_NAME);
+	}
+
+	@Bean
 	public AmqpAdmin amqpAdmin() {
 		RabbitAdmin rabbitAdmin = new RabbitAdmin(connectionFactory());
 		rabbitAdmin.declareExchange(fanoutExchange());
 		return rabbitAdmin;
 	}
+	
+	@Bean
+	public Jackson2JsonMessageConverter messageConverter() {
+		return new Jackson2JsonMessageConverter();
+	}
+
 
 	@Bean
 	public AmqpTemplate amqpTemplate() {
 		RabbitTemplate rabbitTemplate = new RabbitTemplate(connectionFactory());
 		rabbitTemplate.setExchange(fanoutExchange().getName());
+		rabbitTemplate.setMessageConverter(messageConverter());
 		return rabbitTemplate;
 	}
 
-	@Bean
-	public FanoutExchange fanoutExchange() {
-		return new FanoutExchange(EXCHANGE_NAME);
-	}
 }
