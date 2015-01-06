@@ -1,0 +1,8 @@
+language: java
+deploy:
+  provider: heroku
+  api_key:
+    secure: Jpfp/SG+MZ4E6sTC4ezN2z0gueYeSW6fdpdyR3xnBBCwSWlsd86PYDXKybxsciWTE+XvcZH/W0ai3Udz7cdtZ0pz4boqUJ0GKgK6QxBPMkW3fFEK7Dzn5rWsdZapmOKBS/t83fiSXLvkZ7afx9b7E8nPsk3+iCW9PpjdUhL2pjU=
+  app: trainstations-rt
+  on:
+    repo: knuthp/us-trainstations-rt
