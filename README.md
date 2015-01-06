@@ -1,4 +1,4 @@
-# Microservices Trainstations Real-Time
+# Microservices Trainstations Real-Time [![Build Status](https://travis-ci.org/knuthp/us-trainstations-rt.js.svg?branch=master)](https://travis-ci.org/knuthp/us-trainstations-rt.js)
 This is part of the microservices architecture experiment.
 
 This microservice polls data from http://reisapi.ruter.no/ for some stations. When new info is seen it publishes it to AMPQ exchange train.stations.rt see https://bigwig.lshift.net/management/42808/#/.
