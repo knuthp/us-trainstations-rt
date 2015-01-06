@@ -7,6 +7,7 @@ This microservice polls data from http://reisapi.ruter.no/ for some stations. Wh
 # Technology
 1. Language: Java 8 Spring 4.x
 2. Build: Maven
+3. CI: Travis
 3. Deployment: Heroku
 4. Tools:
   1. RabbitMQ
