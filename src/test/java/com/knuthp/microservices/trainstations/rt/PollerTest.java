@@ -71,7 +71,7 @@ public class PollerTest {
 		placeList = new PlaceList();
 		ruterGateway = new RuterGateway();
 		ruterGateway.setHttpProxy(httpProxyMock);
-		String myResource = IOUtils.toString(this.getClass()
+		String myResource = IOUtils.toString(this.getClass().getClassLoader()
 				.getResourceAsStream("departures.json"));
 		when(httpProxyMock.getUrlJson(anyString())).thenReturn(
 				myResource);

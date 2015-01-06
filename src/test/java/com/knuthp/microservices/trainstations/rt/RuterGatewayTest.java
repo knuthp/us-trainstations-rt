@@ -37,7 +37,7 @@ public class RuterGatewayTest {
 
 	@Test
 	public void testReadReisApiFromJSON() throws Exception {
-		String myResource = IOUtils.toString(this.getClass()
+		String myResource = IOUtils.toString(this.getClass().getClassLoader()
 				.getResourceAsStream("departures.json"));
 		when(httpProxyMock.getUrlJson(endsWith("getdepartures/1"))).thenReturn(
 				myResource);
