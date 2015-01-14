@@ -20,4 +20,4 @@ This microservice polls data from http://reisapi.ruter.no/ for some stations. Wh
 
 # Notes
 ## Need to keep web app in running state
-In order for this to work with a free account on Heroku, the webapp need to be continously running. To accomplish this I use my own Quartz-worker on Heroku to request the homepage of trainstations-rt each minute. 
+In order for this to work with a free account on Heroku, the webapp need to be continuously running. To accomplish this I use my own Quartz-worker on Heroku to request the homepage of trainstations-rt each minute. 

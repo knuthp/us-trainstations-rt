@@ -14,6 +14,7 @@ import org.mockito.Captor;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
+import com.knuthp.microservices.trainstations.rt.domain.CurrentDepartures;
 import com.knuthp.microservices.trainstations.rt.domain.RtDepartures;
 import com.knuthp.microservices.trainstations.rt.domain.RtStop;
 
@@ -75,7 +76,8 @@ public class PollerTest {
 				.getResourceAsStream("departures.json"));
 		when(httpProxyMock.getUrlJson(anyString())).thenReturn(
 				myResource);
-		poller = new Poller(placeList, ruterGateway, publisher);
+		CurrentDepartures currentDepartures = new CurrentDepartures();
+		poller = new Poller(placeList, ruterGateway, publisher, currentDepartures);
 	}
 
 }

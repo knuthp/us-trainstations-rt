@@ -2,13 +2,36 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>Norwegian Trainstation poller</title>
 </head>
 <body>
 <h1>
-	Hello world!  
+	Train stations  
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<P>  The number of places polled ${numberOfPlaces}. </P>
+<h2>Places</h2>
+<table>
+	<c:forEach items="${currentDepartures}" var="departures">
+    	<h3>Place ID: <c:out value="${departures.key.id}"/></h3>
+    	<table>
+    		<tr>
+    			<th>PublishedLineName</th>
+    			<th>JourneyId</th>
+    			<th>Monitored</th>
+    			<th>Delay</th>
+    		</tr>
+	    	<c:forEach items="${departures.value.rtStopList}" var="rtStop">
+	    		<tr>
+	    			<td><c:out value="${rtStop.publishedLineName}"/></td>
+	    			<td><c:out value="${rtStop.journeyId}"/></td>
+	    			<td><c:out value="${rtStop.monitored}"/></td>
+	    			<td><c:out value="${rtStop.delay}"/></td>
+	    		</tr>
+	    	</c:forEach>
+    	</table>
+	</c:forEach>
+</table>
 </body>
 </html>

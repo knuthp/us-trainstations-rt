@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 
 import com.knuthp.microservices.reisapi.model.MonitoredStopVisit;
 import com.knuthp.microservices.reisapi.model.Place;
+import com.knuthp.microservices.trainstations.rt.domain.CurrentDepartures;
 import com.knuthp.microservices.trainstations.rt.domain.RtDepartures;
 import com.knuthp.microservices.trainstations.rt.domain.RtStop;
 
@@ -20,45 +21,40 @@ import com.knuthp.microservices.trainstations.rt.domain.RtStop;
 @EnableScheduling
 public class Poller {
 	private static final Logger logger = LoggerFactory.getLogger(Poller.class);
-	private Map<Place, RtDepartures> cache;
-	
+	@Autowired
+	private CurrentDepartures cache;
 	@Autowired
 	private PlaceList placeList;
 	@Autowired
 	private RuterGateway ruterGateway;
 	@Autowired
 	private Publisher publisher;
-	
+
 	public Poller() {
-		cache = new HashMap<Place, RtDepartures>();
 	}
 
-	public Poller(PlaceList placeList, RuterGateway ruterGateway, Publisher publisher) {
+	public Poller(PlaceList placeList, RuterGateway ruterGateway,
+			Publisher publisher, CurrentDepartures cache) {
 		this.placeList = placeList;
 		this.ruterGateway = ruterGateway;
 		this.publisher = publisher;
-		cache = new HashMap<Place, RtDepartures>();
+		this.cache = cache;
 	}
 
-	
 	@Scheduled(fixedRate = 1000)
 	public void pollStations() throws Exception {
 		for (Place place : placeList.getPlaceList()) {
 			logger.debug("Polling: " + place.getId());
-			List<MonitoredStopVisit> departures = ruterGateway.getDepartures(place);
+			List<MonitoredStopVisit> departures = ruterGateway
+					.getDepartures(place);
 			RtDepartures rtDepartures = createDomainObject(place, departures);
-			
-			RtDepartures cachedDepartures = cache.get(place);
-			if (rtDepartures != null && (cachedDepartures == null || !cachedDepartures.equals(rtDepartures))) {			
-				logger.info("Updated data for " + place);
+
+			boolean newStatus = cache.updateStation(place, rtDepartures);
+			if (newStatus) {
 				publisher.publishRtDepartures(rtDepartures);
-				cache.put(place, rtDepartures);
-			} else {
-				logger.debug("Equal data for " + place);
 			}
 		}
 	}
-
 
 	private RtDepartures createDomainObject(Place place,
 			List<MonitoredStopVisit> departures) {
@@ -66,17 +62,25 @@ public class Poller {
 		rtDepartures.setPlaceId(place.getId());
 		for (MonitoredStopVisit monitoredStopVisit : departures) {
 			RtStop rtStop = new RtStop();
-			rtStop.setPublishedLineName(monitoredStopVisit.getMonitoredVehicleJourney().getPublishedLineName());
-			rtStop.setMonitored(monitoredStopVisit.getMonitoredVehicleJourney().isMonitored());
-			rtStop.setVehicleAtStop(monitoredStopVisit.getMonitoredVehicleJourney().getMonitoredCall().isVehicleAtStop());
-			rtStop.setDelay(monitoredStopVisit.getMonitoredVehicleJourney().getDelay());
-			if (monitoredStopVisit.getMonitoredVehicleJourney().getFramedVehicleJourneyRef() != null) {
-				rtStop.setJourneyId(monitoredStopVisit.getMonitoredVehicleJourney().getFramedVehicleJourneyRef().getDatedVehicleJourneyRef());
+			rtStop.setPublishedLineName(monitoredStopVisit
+					.getMonitoredVehicleJourney().getPublishedLineName());
+			rtStop.setMonitored(monitoredStopVisit.getMonitoredVehicleJourney()
+					.isMonitored());
+			rtStop.setVehicleAtStop(monitoredStopVisit
+					.getMonitoredVehicleJourney().getMonitoredCall()
+					.isVehicleAtStop());
+			rtStop.setDelay(monitoredStopVisit.getMonitoredVehicleJourney()
+					.getDelay());
+			if (monitoredStopVisit.getMonitoredVehicleJourney()
+					.getFramedVehicleJourneyRef() != null) {
+				rtStop.setJourneyId(monitoredStopVisit
+						.getMonitoredVehicleJourney()
+						.getFramedVehicleJourneyRef()
+						.getDatedVehicleJourneyRef());
 			}
 			rtDepartures.addStop(rtStop);
 		}
 		return rtDepartures;
 	}
-	
-	
+
 }
