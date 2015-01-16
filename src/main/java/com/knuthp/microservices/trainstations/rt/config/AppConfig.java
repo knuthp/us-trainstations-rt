@@ -14,6 +14,8 @@ import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import com.knuthp.microservices.trainstations.rt.NsObjectMapper;
+
 
 @Configuration
 public class AppConfig {
@@ -52,7 +54,9 @@ public class AppConfig {
 	
 	@Bean
 	public Jackson2JsonMessageConverter messageConverter() {
-		return new Jackson2JsonMessageConverter();
+		Jackson2JsonMessageConverter converter = new Jackson2JsonMessageConverter();
+		converter.setJsonObjectMapper(new NsObjectMapper());
+		return converter;
 	}
 
 

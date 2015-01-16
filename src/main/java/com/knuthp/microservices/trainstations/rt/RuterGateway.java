@@ -10,6 +10,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+import com.fasterxml.jackson.datatype.jsr310.JSR310Module;
 import com.knuthp.microservices.reisapi.model.MonitoredStopVisit;
 import com.knuthp.microservices.reisapi.model.Place;
 
@@ -18,9 +19,11 @@ public class RuterGateway {
 	private static final String REISAPI = "reisapi.ruter.no";
 	private static Logger LOG = LoggerFactory.getLogger(RuterGateway.class);
 	private HttpProxy httpProxy;
+	private ObjectMapper mapper;
 	
 	public RuterGateway() {
 		setHttpProxy(new HttpProxy());
+		mapper = new ReisApiObjectMapper();
 	}
 
 	public String getDeparturesJson(Place place) {
@@ -32,9 +35,6 @@ public class RuterGateway {
 
 	@SuppressWarnings("unchecked")
 	public List<MonitoredStopVisit> getDepartures(Place place) throws Exception {
-		ObjectMapper mapper = new ObjectMapper();
-		mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-		mapper.setPropertyNamingStrategy(PropertyNamingStrategy.PASCAL_CASE_TO_CAMEL_CASE);
 		return (List<MonitoredStopVisit>) mapper.readValue(
 				getDeparturesJson(place), new TypeReference<List<MonitoredStopVisit>>(){});
 	}
