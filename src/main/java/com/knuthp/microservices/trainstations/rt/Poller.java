@@ -1,8 +1,7 @@
 package com.knuthp.microservices.trainstations.rt;
 
-import java.util.HashMap;
+import java.time.OffsetDateTime;
 import java.util.List;
-import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -69,6 +68,12 @@ public class Poller {
 			rtStop.setVehicleAtStop(monitoredStopVisit
 					.getMonitoredVehicleJourney().getMonitoredCall()
 					.isVehicleAtStop());
+			rtStop.setExpectedArrivalTime(OffsetDateTime
+					.parse(monitoredStopVisit.getMonitoredVehicleJourney()
+							.getMonitoredCall().getExpectedArrivalTime()));
+			rtStop.setExpectedDepartureTime(OffsetDateTime
+					.parse(monitoredStopVisit.getMonitoredVehicleJourney()
+							.getMonitoredCall().getExpectedDepartureTime()));
 			rtStop.setDelay(monitoredStopVisit.getMonitoredVehicleJourney()
 					.getDelay());
 			if (monitoredStopVisit.getMonitoredVehicleJourney()

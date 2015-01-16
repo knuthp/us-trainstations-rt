@@ -1,5 +1,7 @@
 package com.knuthp.microservices.trainstations.rt.domain;
 
+import java.time.OffsetDateTime;
+
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
@@ -11,6 +13,8 @@ public class RtStop {
 	private boolean vehicleAtStop;
 	private String journeyId;
 	private String delay;
+	private OffsetDateTime expectedArrivalTime;
+	private OffsetDateTime expectedDepartureTime;
 
 	public boolean isMonitored() {
 		return monitored;
@@ -53,6 +57,22 @@ public class RtStop {
 	}
 
 	
+	public OffsetDateTime getExpectedArrivalTime() {
+		return expectedArrivalTime;
+	}
+
+	public void setExpectedArrivalTime(OffsetDateTime expectedArrivalTime) {
+		this.expectedArrivalTime = expectedArrivalTime;
+	}
+
+	public OffsetDateTime getExpectedDepartureTime() {
+		return expectedDepartureTime;
+	}
+
+	public void setExpectedDepartureTime(OffsetDateTime expectedDepartureTime) {
+		this.expectedDepartureTime = expectedDepartureTime;
+	}
+
 	@Override
 	public boolean equals(Object obj) {
 		return EqualsBuilder.reflectionEquals(this, obj);
