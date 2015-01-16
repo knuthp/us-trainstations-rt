@@ -22,6 +22,8 @@
     			<th>Monitored</th>
     			<th>ExpArrival</th>
     			<th>ExpDepart</th>
+    			<th>AimedArrival</th>
+    			<th>AimedDepart</th>
     			<th>Delay</th>
     		</tr>
 	    	<c:forEach items="${departures.value.rtStopList}" var="rtStop">
@@ -31,6 +33,8 @@
 	    			<td><c:out value="${rtStop.monitored}"/></td>
 	    			<td><c:out value="${rtStop.expectedArrivalTime}"/></td>
 	    			<td><c:out value="${rtStop.expectedDepartureTime}"/></td>
+	    			<td><c:out value="${rtStop.aimedArrivalTime}"/></td>
+	    			<td><c:out value="${rtStop.aimedDepartureTime}"/></td>
 	    			<td><c:out value="${rtStop.delay}"/></td>
 	    		</tr>
 	    	</c:forEach>

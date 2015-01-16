@@ -53,7 +53,7 @@ public class RtDeparturesTest {
 		
 		String result = mapper.writeValueAsString(rtDepartures);
 		
-		assertEquals("{\"placeId\":\"myPlaceId\",\"rtStopList\":[{\"monitored\":false,\"publishedLineName\":\"L14\",\"vehicleAtStop\":false,\"journeyId\":null,\"delay\":null}]}", result);
+		assertEquals("{\"placeId\":\"myPlaceId\",\"rtStopList\":[{\"monitored\":false,\"publishedLineName\":\"L14\",\"vehicleAtStop\":false,\"journeyId\":null,\"delay\":null,\"expectedArrivalTime\":null,\"expectedDepartureTime\":null,\"aimedArrivalTime\":null,\"aimedDepartureTime\":null}]}", result);
 	}
 	
 	
