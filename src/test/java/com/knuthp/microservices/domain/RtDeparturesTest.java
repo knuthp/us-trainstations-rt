@@ -1,6 +1,7 @@
 package com.knuthp.microservices.domain;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 import java.time.OffsetDateTime;
 
@@ -11,8 +12,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.jsr310.JSR310Module;
 import com.knuthp.microservices.trainstations.rt.NsObjectMapper;
 import com.knuthp.microservices.trainstations.rt.domain.RtDepartures;
 import com.knuthp.microservices.trainstations.rt.domain.RtStop;
@@ -53,6 +52,7 @@ public class RtDeparturesTest {
 		rtDepartures.setPlaceId("myPlaceId");
 		RtStop rtStop = new RtStop();
 		rtStop.setPublishedLineName("L14");
+		rtStop.setDestinationName("myDestinationName");
 		rtStop.setDelay("PT60S");
 		rtStop.setExpectedArrivalTime(OffsetDateTime
 				.parse("2014-12-31T17:29:00+01:00"));
@@ -65,6 +65,7 @@ public class RtDeparturesTest {
 				+ "{\"monitored\":false," + "\"publishedLineName\":\"L14\","
 				+ "\"vehicleAtStop\":false," + "\"journeyId\":null,"
 				+ "\"delay\":\"PT60S\","
+				+ "\"destinationName\":\"myDestinationName\","
 				+ "\"expectedArrivalTime\":\"2014-12-31T17:29+01:00\","
 				+ "\"expectedDepartureTime\":null,"
 				+ "\"aimedArrivalTime\":null,"

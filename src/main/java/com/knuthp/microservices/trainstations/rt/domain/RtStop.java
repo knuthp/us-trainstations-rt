@@ -13,6 +13,7 @@ public class RtStop {
 	private boolean vehicleAtStop;
 	private String journeyId;
 	private String delay;
+	private String destinationName;
 	private OffsetDateTime expectedArrivalTime;
 	private OffsetDateTime expectedDepartureTime;
 	private OffsetDateTime aimedArrivalTime;
@@ -59,6 +60,14 @@ public class RtStop {
 	}
 
 	
+	public String getDestinationName() {
+		return destinationName;
+	}
+
+	public void setDestinationName(String destinationName) {
+		this.destinationName = destinationName;
+	}
+
 	public OffsetDateTime getExpectedArrivalTime() {
 		return expectedArrivalTime;
 	}

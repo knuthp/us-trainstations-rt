@@ -8,6 +8,7 @@ public class MonitoredVehicleJourney {
 	private String publishedLineName;
 	private boolean monitored;
 	private String delay;
+	private String destinationName;
 	private MonitoredCall monitoredCall;
 	private FramedVehicleJourneyRef framedVehicleJourneyRef;
 	
@@ -29,6 +30,12 @@ public class MonitoredVehicleJourney {
 	}
 	public void setDelay(String delay) {
 		this.delay = delay;
+	}
+	public String getDestinationName() {
+		return destinationName;
+	}
+	public void setDestinationName(String destinationName) {
+		this.destinationName = destinationName;
 	}
 	public MonitoredCall getMonitoredCall() {
 		return monitoredCall;

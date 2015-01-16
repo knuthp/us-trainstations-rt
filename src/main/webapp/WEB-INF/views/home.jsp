@@ -18,6 +18,7 @@
     	<table>
     		<tr>
     			<th>PublishedLineName</th>
+    			<th>Destination</th>
     			<th>JourneyId</th>
     			<th>Monitored</th>
     			<th>ExpArrival</th>
@@ -29,6 +30,7 @@
 	    	<c:forEach items="${departures.value.rtStopList}" var="rtStop">
 	    		<tr>
 	    			<td><c:out value="${rtStop.publishedLineName}"/></td>
+	    			<td><c:out value="${rtStop.destinationName}"/></td>
 	    			<td><c:out value="${rtStop.journeyId}"/></td>
 	    			<td><c:out value="${rtStop.monitored}"/></td>
 	    			<td><c:out value="${rtStop.expectedArrivalTime}"/></td>
