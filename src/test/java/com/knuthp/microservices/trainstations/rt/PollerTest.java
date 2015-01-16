@@ -55,6 +55,8 @@ public class PollerTest {
 		assertEquals("PT0S", rtStop.getDelay());
 		assertEquals("2014-12-31T17:28:47+01:00", rtStop.getExpectedArrivalTime().toString());
 		assertEquals("2014-12-31T17:30+01:00", rtStop.getExpectedDepartureTime().toString());
+		assertEquals("2014-12-31T17:29+01:00", rtStop.getAimedArrivalTime().toString());
+		assertEquals("2014-12-31T17:30+01:00", rtStop.getAimedDepartureTime().toString());
 	}
 
 	

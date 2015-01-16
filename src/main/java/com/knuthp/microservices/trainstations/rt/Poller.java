@@ -74,7 +74,12 @@ public class Poller {
 			rtStop.setExpectedDepartureTime(OffsetDateTime
 					.parse(monitoredStopVisit.getMonitoredVehicleJourney()
 							.getMonitoredCall().getExpectedDepartureTime()));
-			rtStop.setDelay(monitoredStopVisit.getMonitoredVehicleJourney()
+			rtStop.setAimedArrivalTime(OffsetDateTime
+					.parse(monitoredStopVisit.getMonitoredVehicleJourney()
+							.getMonitoredCall().getAimedArrivalTime()));
+			rtStop.setAimedDepartureTime(OffsetDateTime
+					.parse(monitoredStopVisit.getMonitoredVehicleJourney()
+							.getMonitoredCall().getAimedDepartureTime()));			rtStop.setDelay(monitoredStopVisit.getMonitoredVehicleJourney()
 					.getDelay());
 			if (monitoredStopVisit.getMonitoredVehicleJourney()
 					.getFramedVehicleJourneyRef() != null) {

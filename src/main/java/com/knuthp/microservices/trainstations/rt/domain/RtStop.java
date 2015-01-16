@@ -15,6 +15,8 @@ public class RtStop {
 	private String delay;
 	private OffsetDateTime expectedArrivalTime;
 	private OffsetDateTime expectedDepartureTime;
+	private OffsetDateTime aimedArrivalTime;
+	private OffsetDateTime aimedDepartureTime;
 
 	public boolean isMonitored() {
 		return monitored;
@@ -71,6 +73,22 @@ public class RtStop {
 
 	public void setExpectedDepartureTime(OffsetDateTime expectedDepartureTime) {
 		this.expectedDepartureTime = expectedDepartureTime;
+	}
+
+	public OffsetDateTime getAimedArrivalTime() {
+		return aimedArrivalTime;
+	}
+
+	public void setAimedArrivalTime(OffsetDateTime aimedArrivalTime) {
+		this.aimedArrivalTime = aimedArrivalTime;
+	}
+
+	public OffsetDateTime getAimedDepartureTime() {
+		return aimedDepartureTime;
+	}
+
+	public void setAimedDepartureTime(OffsetDateTime aimedDepartureTime) {
+		this.aimedDepartureTime = aimedDepartureTime;
 	}
 
 	@Override
