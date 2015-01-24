@@ -43,4 +43,8 @@ public class CurrentDepartures {
 		return new HashMap<Place, RtDepartures>(cache);
 	}
 
+	public void reset() {
+		cache.clear();
+	}
+
 }

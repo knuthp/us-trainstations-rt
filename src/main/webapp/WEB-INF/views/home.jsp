@@ -11,6 +11,9 @@
 
 <P>  The time on the server is ${serverTime}. </P>
 <P>  The number of places polled ${numberOfPlaces}. </P>
+<form action="/reset" method="post">
+	<input type="submit" value="Reset" />
+</form>
 <h2>Places</h2>
 <table>
 	<c:forEach items="${currentDepartures}" var="departures">
