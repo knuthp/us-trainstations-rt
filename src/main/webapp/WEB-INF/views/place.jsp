@@ -13,5 +13,9 @@
     	<h3>Place ID: <c:out value="${place.id}"/></h3>
 	</c:forEach>
 </table>
+<form method="post">
+	Id: <input type="text" name="id" id="id">
+	<input type="submit" value="Add">
+</form>
 </body>
 </html>

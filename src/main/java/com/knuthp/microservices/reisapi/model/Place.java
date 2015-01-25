@@ -6,14 +6,22 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 
 public class Place {
 	
-	private final String id;
+	private String id;
 
 	public Place(final String id) {
 		this.id = id;
 	}
+	
+	public Place() {
+		
+	}
 
 	public String getId() {
 		return id;
+	}
+	
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 	@Override
