@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 import com.knuthp.microservices.reisapi.model.MonitoredStopVisit;
 import com.knuthp.microservices.reisapi.model.Place;
 import com.knuthp.microservices.trainstations.rt.domain.CurrentDepartures;
+import com.knuthp.microservices.trainstations.rt.domain.FixPolledRtDepartures;
 import com.knuthp.microservices.trainstations.rt.domain.RtDepartures;
 import com.knuthp.microservices.trainstations.rt.domain.RtStop;
 
@@ -29,7 +30,10 @@ public class Poller {
 	@Autowired
 	private Publisher publisher;
 
+	private FixPolledRtDepartures fixPolledRtDepartures;
+
 	public Poller() {
+		fixPolledRtDepartures = new FixPolledRtDepartures();
 	}
 
 	public Poller(PlaceList placeList, RuterGateway ruterGateway,
@@ -38,6 +42,7 @@ public class Poller {
 		this.ruterGateway = ruterGateway;
 		this.publisher = publisher;
 		this.cache = cache;
+		fixPolledRtDepartures = new FixPolledRtDepartures();
 	}
 
 	@Scheduled(fixedRate = 1000)
@@ -47,6 +52,7 @@ public class Poller {
 			List<MonitoredStopVisit> departures = ruterGateway
 					.getDepartures(place);
 			RtDepartures rtDepartures = createDomainObject(place, departures);
+			fixPolledRtDepartures.fix(rtDepartures);
 
 			boolean newStatus = cache.updateStation(place, rtDepartures);
 			if (newStatus) {
@@ -82,7 +88,8 @@ public class Poller {
 							.getMonitoredCall().getAimedDepartureTime()));
 			rtStop.setDelay(monitoredStopVisit.getMonitoredVehicleJourney()
 					.getDelay());
-			rtStop.setDestinationName(monitoredStopVisit.getMonitoredVehicleJourney().getDestinationName());
+			rtStop.setDestinationName(monitoredStopVisit
+					.getMonitoredVehicleJourney().getDestinationName());
 			if (monitoredStopVisit.getMonitoredVehicleJourney()
 					.getFramedVehicleJourneyRef() != null) {
 				rtStop.setJourneyId(monitoredStopVisit
